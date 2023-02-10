@@ -30,7 +30,7 @@ html, body {
    width:100vw;
 }
 
-h2 {
+/*h2 {
    border-radius: 5px 5px 0 0;
    padding: 10px !important;
    position:absolute;
@@ -65,7 +65,6 @@ h3 {
    font-weight: 10;
    font-family: 'Space Mono', 'Barlow Condensed', Quicksand, 'Roboto Condensed', serif;
    text-align: right;
-   color:#a0bcc65a;
 }
 
 h2, h3 {
@@ -74,6 +73,35 @@ h2, h3 {
    filter: drop-shadow(0px 20px 20px rgb(49, 125, 106)) ;
    left: 50%;
    transform: translate(-50%, -50%); 
+}*/
+div {
+   border-radius: 10px;
+   padding: 20px 30px 10px 30px !important;
+   position:absolute;
+   width: 30vw;
+   z-index: 4 !important;
+   background-color: #3340406b;
+   filter: drop-shadow(0px 20px 20px rgb(49, 125, 106)) ;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   vertical-align: middle;
+}
+
+div > h2 {
+   line-height: 3vw;
+   font-size: 2.3vw;
+   text-align: left;
+   color:#afbdc2;
+   font-family: 'Space Mono', 'Barlow Condensed', Quicksand, 'Roboto Condensed', serif;
+}
+
+div > h3 {
+   line-height: 4vw;
+   font-size: 1.3vw;
+   font-family: 'Courier New', Courier, monospace;
+   color:#a0bcc65a;
+   text-align: right;
 }
 
 #a, #b, #c, #d {
