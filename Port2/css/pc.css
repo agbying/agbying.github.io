@@ -1,0 +1,159 @@
+#sendmsg1, #sendmsg2, #sendmsg3  {
+  font-weight:700;
+  font-size:16px;
+  text-decoration:none;
+  position:absolute;
+  overflow:auto;
+  border:0px;
+  padding:5px;
+  border-radius:8px;
+  z-index:100;
+  top:80%;
+}
+
+#sendmsg1 {
+  right: 3%;
+  background-color:#9d6e84;
+  color:#9d8591;
+}
+
+#sendmsg2 {
+  left: 3%;
+  background-color:#9d6e84;
+  color:#9d9285;
+}
+
+#sendmsg3 {
+  right: 3%;
+  background-color:#9d6e84;
+  color:#92859d;
+}
+
+::placeholder {
+  color:#3340406c;
+}
+
+.p{
+  position: absolute;
+  width:75%;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  overflow-wrap: break-word;
+}
+
+.body {
+  font-family: Unbounded ,Quicksand, 'Roboto Condensed', serif;  
+  font-size:50px; 
+  margin: 10px; 
+  letter-spacing: 6px; 
+  font-weight: bold;
+  top:150px;
+  position:absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  color:#334040;
+}
+
+.banner {
+  position:absolute;
+  width:70%;
+  Height:50px;
+  padding:160px 0 160px 0;
+  text-align:center;
+  vertical-align:text-top;
+  background: #9d5678;
+  color: #334040;
+}
+
+.banner2 {
+  position:absolute;
+  width: 100%;
+  padding: 110px 0 110px 0;
+  text-align: center;
+  background: #9d8591;
+  color: #334040;
+}
+
+.banner, .banner2 {
+  top: 50%;
+  transform: translate(0, -50%);
+  font-size: 40px;
+  font-family: Unbounded ,Quicksand, 'Roboto Condensed', serif;  
+}
+
+.banner3 {
+  position:absolute;
+  width: 100%;
+  padding: 240px 0 240px 0;
+  text-align: center;
+  background: #bfbfbf00;
+  color: #334040;
+}
+
+
+.one > .banner3 {
+  top: 220px;
+}
+
+.two > .banner3 {
+  top: 700px;
+}
+.three > .banner3 > .banner {
+  background: #7b569d;
+}
+.three > .banner3 > .banner2 {
+  background: #92859d;
+}
+
+
+.three > .banner3 {
+  top: 1180px;
+}
+.two > .banner3 > .banner {
+  right: 0;
+  background: #9d7b56;
+}
+.two > .banner3 > .banner2 {
+  right: 0;
+  background: #9d9285;
+}
+
+label,
+textarea {
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+
+textarea {
+  position: absolute;
+  padding: 10px;
+  max-width: 100%;
+  line-height: 1.5;
+  border-radius: 5px;
+  border: 1px solid rgba(204, 204, 204, 0);
+  box-shadow: 1px 1px 1px rgba(153, 153, 153, 0);
+  resize: none;
+  background-color: #3434341e;
+  width:20%;
+  top: 50%;
+  transform: translate(-0%, -50%);
+  font-family: Unbounded ,Quicksand, 'Roboto Condensed', serif;  
+  outline: 0;
+  outline-color: transparent;
+  outline-style: none;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+.one > div > div > textarea {
+  right: 4%;
+}
+.two > div > div > textarea {
+  left: 4%;
+}
+.three > div > div > textarea {
+  right: 4%;
+}
